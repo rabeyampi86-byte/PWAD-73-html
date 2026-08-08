@@ -1,2 +1,4 @@
 Today is our first day to learn about github
 I am changing my text file
+This is the third time I am practicing the same thing at home
+so that I cannot forget this process easily.
