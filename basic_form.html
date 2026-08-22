@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Form</title>
+</head>
+<body>
+    <h3>Basic HTML Form</h3>
+    <form action="">
+        <label for="">First Name:</label><br>
+        <input type="text" name="fname" placeholder="Enter your first name"> <br>
+        <label for="">Last Name:</label><br>
+        <input type="text" name="lname" placeholder="Enter your last name"><br>
+        <label for="">Address:</label><br>
+        <textarea name="address" placeholder="Enter your address" rows="10" cols="20"></textarea> <br>
+        <label for="">Gender:</label><br>
+        <input type="radio" name="Gender" value="m">Male
+        <input type="radio" name="Gender" value="f">Female
+        <input type="radio" name="Gender" value="o">Others <br>
+        <label for="">Division:</label><br>
+        <select name="division">
+            <option value="" disabled>Select one</option>
+            <option value="1">Dhaka</option>
+            <option value="2">Chattagram</option>
+            <option value="3">Khulna</option>
+            <option value="4">Barisal</option>
+            <option value="5" selected>Sylhet</option>
+            <option value="6">Rajsahi</option>
+            <option value="7">Rongpur</option>
+        </select><br>
+        <input type="submit" name="submit" value="Send"> <br>
+        <input type="reset" name="reset" value="Reset"> <br> 
+        <button type="button">Submit
+        </button>
+    </form>
+</body>
+</html>
